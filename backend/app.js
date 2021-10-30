@@ -30,7 +30,7 @@ app.use('/api/v1', order);
 app.use('/api/v1', payment);
 
 app.get('/', (req, res) => {
-	res.status(200).json({ message: 'Welcome My Dream Shop Api' });
+	res.status(200).json({ message: 'Welcome to  Fresh Valley Api' });
 });
 
 // Middleware for Errors
